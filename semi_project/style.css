@@ -1,0 +1,633 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #ff6863;
+  --color-black: #4d4d4d;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /* Annimation */
+  --animation-duration: 300ms;
+}
+
+/* Universal tags */
+/* 
+우리가 패딩을 줬을 때 높이와 너비가 그 패딩을 포함 했을때도
+동일한 높이와 너비가 되도록  border-box 로 준다
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* 버튼 속성 없애버리기 */
+button {
+  background-color: transparent;/*배경색으로 맞춤*/
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  /* 마진 값이 두개면 앞에건 위 아래 두번째 0은 양옆에
+  만일 값을 4개 쓰면 시계방향으로 위 오른쪽 밑에 왼쪽
+  */
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+  margin: 4px 0;
+}
+
+/* Navbar 
+  navbar는 ID선택자로 되어 있기 때문에  navbar에게 야 너 안에 박스 두 개 있는데 
+  우리 플렉스 박스로 하자 그래서 박스가 양쪽에 나올 수 있도록 
+  그리고 지금 중심 축은 수평 축이죠 중심축에서 정렬할 수 있는 것은 justify-content니까
+  space-between을 이용해서 간격이 떨어져 있도록 만든다
+
+*/
+#navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  /* after */
+  align-items: center;
+  padding: 16px;
+  color: var(--color-white);/* KOSMO80앞에흰색 */
+  transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;/* 네브바는 무슨 일이 있어도 위에 있어야 하니까 1로 설정함 */
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-pink);
+  padding: 8px;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__logo {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: var(--size-border-radius);
+}
+
+.navbar__menu__item:hover {
+  border-color: var(--color-white);
+  background-color: var(--color-dark-pink);
+}
+
+/* 버거 아이콘 -반응형 위해 */
+.navbar__toggle-btn {
+  position: absolute;
+  top: 18px;
+  right: 32px;
+  font-size: 24px;
+  display: none;
+}
+
+/*  Home  */
+#home {
+  background: url('../images/homebackground.png') center/cover no-repeat;/* 반응형이 되도록 해줌 */
+  padding: 40px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white );
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+/* Section common */
+.section {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;/* 마진이 오른쪽에만 들어가 있을 때 사용 */
+}
+
+/* About */
+.about__majors {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+
+.major__icon {
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
+  font-size: 70px;
+  margin: auto;
+  border: 1px solid var(--color-blue);
+  border-radius: 50%;
+  margin-bottom: 16px;
+  color: var(--color-blue);
+  /* background-color: yellow; 안보이니까 배경색 넣고 작업하면 좋아*/
+}
+
+.major__icon i {
+  transition: all var(--animation-duration) ease;
+}
+
+.major__icon:hover i{
+  color: var(--color-pink);
+  transform: rotate(-30deg) scale(1.1);
+}
+
+.major__title, .major__description {
+  color: var(--color-dark-grey);
+}
+
+.major__description {
+  font-size: var(--font-small);
+}
+
+.school {
+  display: flex;
+  align-items: center;
+}
+
+.school__description {
+  margin: 0 16px;
+  text-align: left;
+}
+
+.school__name, .school__period {
+  color: var(--color-light-grey);
+}
+
+.school__name {
+  font-size: var(--font-small);
+}
+
+.school__period {
+  font-size: var(--font-micro);
+}
+
+/* Skill */
+#skills {
+  background-color: var(--color-yellow);
+}
+/* 
+우리가 스킬셋이라는 컨테이너박스를 디스플레이로 만들어 볼게요 그러면 벌써 이렇게 양옆으로 정렬됨
+아이템들이 크기가 자동적으로 늘어나게 만들기 위해서는 아이템별로 우리가 flex-basis 를 지정해 줌
+*/
+.skillset {
+  display: flex;/* skills와 Tools가 두 줄로 보임 */
+  background-color: var(--color-light-grey);
+  color: var(--color-light-white);
+  margin: 20px 0;
+}
+
+.skillset__title {
+  color: var(--color-white);
+}
+
+.skillset__left {
+  flex-basis: 60%;
+  background-color: var(--color-dark-grey);
+  padding: 20px 40px;/* 위아래 20와  양옆 40에 패딩 추가됨 */
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+
+.skill__description {
+  display: flex;/* Skills의 목록이 왼쪽으로 밀착됨 */
+  justify-content: space-between;
+}
+
+.skill__bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-grey);
+}
+/* 
+문제제기:모든 요소에 다 70%로 값이 할당되는게 보이죠 50으로 해도 다 똑같은 값이 적용됨
+그래서 이 width는 css에서 정리하는 것이 아니라 html 태그에서 정의 되어져야 함
+그리고 나중에 이런 데이터들은 따로 추출해서 제이슨에서 관리하고 제이슨에서 동적으로 
+받아오고 이런 데이터를 html코드로 변환해서 자동적으로 생성을 할 거기 때문에 
+html에 적용이 되어 있어야 해요
+우리가 할 수 있는 방법은 태그에 스타일을 인라인화 하는 겁니다.
+ */
+.skill__value {
+  /* width: 70%; */
+  height: 3px;
+  background-color: var(--color-orange);
+}
+
+.skillset__right {
+  flex-basis: 40%;
+}
+
+.tools {
+  background-color: var(--color-grey);
+}
+
+.tools,
+.etc {
+  padding: 20px;
+}
+
+/* Work */
+.work__categories {
+  margin: 40px;
+}
+
+.category__btn {
+  border: 1px solid var(--color-dark-white);
+  border-radius: var(--size-border-radius);
+  font-size: var(--font-regular);
+  padding: 8px 48px;
+}
+
+.category__btn.selected,
+.category__btn:hover {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+}
+
+.category__btn.selected .category__count, 
+.category__btn:hover .category__count {
+  opacity: 1;
+  top: 0;
+}
+
+.category__count {
+  background-color: var(--color-orange);
+  border-radius: 50%;
+  color: var(--color-white);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  position: relative;
+  top: -20px;
+  left: 4px;
+  opacity: 0;
+  transition: all var(--animation-duration) ease-out;
+}
+
+.work__projects {
+  display: flex;
+  flex-wrap: wrap;/* 한줄에 차지 않으면 밑으로 떨어지게 함 */
+  justify-content: center;
+  opacity: 1;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.work__projects.anim-out {
+  opacity: 0;
+  transform: scale(0.96) translateY(40px);
+}
+
+.project {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 250px;
+  margin: 2px;
+  background-color: var(--color-light-white)
+}
+
+.project.invisible {
+  display: none;
+}
+
+/* 자기가 담겨져 있는 크기 안에서만 차지해야 됨 */
+.project__img {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+/* 포지션 앱솔루트를 쓰게 되면 근접한 부모노드 중에 기본값인 포지션 스태틱을 쓰지 않는 부모를 찾아가게됨
+   그런데 지금 포지션 디스크립션이 담겨 있는 부모는 프로젝트죠 여기 프로젝트 오면 아무것도 지정하지 않았기
+   때문에 디폴트값인 스태틱이 됨
+*/
+.project__description {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;/* 0.8 로 테스트해봄 */
+  transform: translateY(10px);
+  transition: all var(--animation-duration) ease-in;
+}
+
+.project:hover .project__description{
+  opacity: 0.8;
+  transform: translateY(0px);
+}
+
+.project__description h3 {
+  color: var(--color-orange);
+}
+
+.project__description h3:after {
+  content: '';
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color-dark-white);
+}
+
+/* Testimonial */
+#testimonials {
+  background-color: var(--color-light-white);
+}
+
+.testimonials {
+  margin: 40px;
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0;
+}
+
+.testimonial__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 12px;
+}
+/* 홀수 일때 마진 주기 */
+.testimonial__avatar:nth-child(odd) {
+  margin-right: 40px;
+}
+/* 짝수 일때 마진 주기 */
+.testimonial__avatar:nth-child(even) {
+  margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.testimonial__speech-bubble p {
+  color: var(--color-light-grey)
+}
+
+.testimonial__speech-bubble a {
+  color: var(--color-pink);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1) ;
+  color: var(--color-yellow);
+}
+
+/* Arrow up
+  원래는 안보이다가 스크롤링이 되면 보이게 해야 되잖아요. 그래서 애를 display:none 한 다음에 
+  스크롤링이 되어서 우리가  visible이라는 그런 클래스를 줄때만 할 거기 때문에 
+  .arrow-up.visible  보이는 클래스가 있을 때만 display를 block으로 그럼 자
+  그런데 이렇게 하게 되면 나중에 애니메이션을 주게 되면 display:none을 이용하면
+  document model에서 없어지기 때문에 없어지는 경우에는 애니메이션을 주기가 힘들어요
+*/
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  color: var(--color-white);
+  background-color: var(--color-pink);
+  border-radius: 50px;
+  /* display: none; */
+  /* 애니메이션 한 번 줘 볼게요 일단 arrow-up에서 transition을 줄건데
+  우리가 한번 전체 다 해서 easy-in 하게 되면 애니메이션이 안되는게 보이죠?
+  왜냐하면 이 display같은 경우는 완전히 없어졌다가 나타나는 거기 때문에 
+  애니메이션이 되지 않아요 그래서 일단은 여기서 디스플레이 대신에 opacity를 0으로
+  하고 여기서는 opacity를 1로 하고 우리가  opacity만 애니메이션 하면 되니까
+  하지만 문제는 여기에 없음에도 불구하고 이거 커서가 올라가는게 보이죠? 불투명이긴
+  하지만 실제로 있기 때문에 사용자가 클릭도 할 수 있어요 
+  그래서 클릭이 안되게 하려면 일단 보인상태에서 여기서 만약에 pointer-events라고 
+  있는데 이것을 none으로 지정하게 되면 클릭이 안되게 만들 수가 있어요 
+  그래서 안보일때는 우리가 pointer-events를 이벤트를 이용해서 클릭이 안되도록 
+  하면 될거 같아요 
+  */
+  opacity: 0;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.arrow-up.visible {
+  /* display: block; */
+  opacity: 1;
+  /* pointer-events: auto; 차이모르겠음*/
+}
+
+/* For below 768px screen width 
+미디어 쿼리에서 화면이 768보다 적을 때는 토글 버튼의 디스플레이를 이제 블럭으로 보여주고
+플렉스의 디렉션을 위에서 아래로 바꿔줘야 되니까 컬럼을 한 번 사용해 볼게요
+그러면 위에서 아래로 나오게 되고 이 메뉴 아이템도 위에서 아래로 나오게 돼야 되는데
+지금 정렬이 왼쪽으로 가야 되잖아요 컬럼 일때는 중심축이 수직이니까 우리가 수평 반대쪽에서
+정리를 해야 되기 때문에 얼라인 아이템들을 이용해서 플렉스 스타트 이용하면 왼쪽으로
+정렬이 되겠죠 
+*/
+@media screen and (max-width:768px) {
+  .navbar__toggle-btn {
+    display: block;
+  }
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-pink);
+  }
+
+  #navbar.navbar--dark {
+    padding: 16px;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    text-align: center;
+    /* navbar 메뉴 자체 너비가 작잖아요 그래서 너비를 100%로 줘야 중간으로 옴 */
+    width: 100%;
+    /* 토글 버튼 클릭했을 때 메뉴가 나와야 되니까 */
+    display: none;
+  }
+
+  .navbar__menu.open {
+    display: block;
+  }
+
+  .about__majors {
+    flex-direction: column;
+  }
+  .major {
+    margin-bottom: 38px;
+  }
+  .skillset {
+    flex-direction: column;
+  }
+  /* 화면이 작아지면 그로우가 알아서 화면을 메꿔줌 */
+  .project {
+    flex-grow: 1;
+  }
+  /* 화면이 작아지면 아바타 사이즈를 줄여주자 */
+  .testimonial__avatar {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/*
+  navbar를 배경 색깔을 핑크 색깔로 바꾸는 걸 해볼게요
+  첫번째로는 스크롤링 되는 걸 알아야 해요 그래서 스크롤링이 되면 얼마만큼 내려갔을 때
+  navbar 높이만큼 내려 갔을 때 navbar를 핑크색깔로 변경하겠습니다 
+  그래서 우리가 자바스크립트 코드에서 navbar의 height를 알아와야 돼요
+  그래서 윈도우가 스크롤링 도리 때  navbar의 height만큼 스크롤링이 이루어지면 
+  배경을 바꿔줄 거예요
+
+  우리는 자바스크립트를 이용할 거고 자바스크립트에서 윈도우가 아니면 그냥 스크롤링될때
+  스크롤의 포지션을 알고 싶잖아요 
+  scrollY는 윈도우에 있는 프로퍼티인데 읽기만 가능한데 그래서 픽셀로 얼마나 많이 
+  스크롤이 수직적으로 이루어졌는지를 알려준데요 
+  그래서 변수에 window.scrollY라고 이용하면 가능하데요 
+
+  이제 navbar의 height를 알아봐야 되는데요 Determining the dimensions elements 
+  엘리먼트 사이즈를 결정한 것 이라고 얘기를 했어요 자 여기를 읽어보면 
+  엘리먼트의 사이즈를 결정하는 것은 콘텐트와 스크롤과 패딩과 이런 border를 
+  합한 이런 총 합한 사이즈야 그런 사이즈는 offsetWidth나 offsetHeight 이거를
+  이용하면 되는데 똑같은 값을 받아올 수 있는 이런게 있어 Element.getBoundingClientRect()
+  이런 함수가 있어 그리고 밑에 조금만 더 읽어 보면 offsetWidth와 offsetHeight라는 '
+  프로퍼티는 앨리먼트의 width와 height 를 리턴하지만 getBoundingClientRect() 는
+  렌더링이 된 마지막으로 렌더링이 된 최종적으로 렌더링 된 width와  height를 제공한데
+
+  무슨말이야? 그런데 다행히 예제가 있어요
+  tranform을 이용해서 반으로 줄였어요  scale을 그러면 getBoundingClientRect() 라는 함수를
+  호출하면 반으로 준 실제로 사용자가 보는 렌더링된 50이라는 사이즈를 주지만
+  반면에 offsetWidth는 100을 리턴한데 원래 엘리먼트에 지정된 사이즈 transform을 무시하고
+  그래서 우리가 원하는 건 브라우저에서 실제로 보이는 width와 height을 받아와야 되니까
+  우리는 getBoundingClientRect()라는 것을 이용하면 되겠다 
+
+*/
