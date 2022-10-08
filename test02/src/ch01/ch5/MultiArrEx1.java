@@ -1,6 +1,6 @@
-package ch5;
+package ch01.ch5;
 
-import java.util.*;
+import java.util.Scanner;
 
 class MultiArrEx1 {
 	public static void main(String[] args) {

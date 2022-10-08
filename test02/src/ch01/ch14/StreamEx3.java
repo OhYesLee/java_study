@@ -1,7 +1,9 @@
-package ch14;
+package ch01.ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.Comparator;
+import java.util.IntSummaryStatistics;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 class StreamEx3 {
 	public static void main(String[] args) {

@@ -1,6 +1,8 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 class FileCopy {
 	public static void main(String args[]) {

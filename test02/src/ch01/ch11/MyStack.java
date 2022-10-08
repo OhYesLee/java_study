@@ -1,6 +1,7 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import java.util.EmptyStackException;
+import java.util.Vector;
 
 class MyStack extends Vector {
     public Object push(Object item) {

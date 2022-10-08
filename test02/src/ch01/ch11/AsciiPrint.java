@@ -1,4 +1,4 @@
-package ch11;
+package ch01.ch11;
 
 class AsciiPrint{
 	public static void main(String[] args) {

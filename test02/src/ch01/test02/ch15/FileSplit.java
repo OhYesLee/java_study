@@ -1,4 +1,4 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
 import java.io.*;
 

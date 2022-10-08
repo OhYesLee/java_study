@@ -1,4 +1,4 @@
-package test02.ch3;
+package ch01.test02.ch3;
 
 class OperatorEx15 {
       public static void main(String[] args) { 

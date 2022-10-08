@@ -1,4 +1,4 @@
-package ch2;
+package ch01.ch2;
 
 class SpecialCharEx {
 	public static void main(String[] args) {

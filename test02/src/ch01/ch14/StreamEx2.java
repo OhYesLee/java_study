@@ -1,7 +1,7 @@
-package ch14;
+package ch01.ch14;
 
-import java.io.*;
-import java.util.stream.*;
+import java.io.File;
+import java.util.stream.Stream;
 
 class StreamEx2 {
 	public static void main(String[] args) {

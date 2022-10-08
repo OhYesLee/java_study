@@ -1,6 +1,6 @@
-package test02.ch9;
+package ch01.test02.ch9;
 
-import java.math.*;
+import java.math.BigInteger;
 
 class BigIntegerEx {
 	public static void main(String[] args) throws Exception {

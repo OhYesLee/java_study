@@ -1,6 +1,7 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 class PriorityQueueEx {
 	public static void main(String[] args) {

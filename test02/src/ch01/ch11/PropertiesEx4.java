@@ -1,6 +1,6 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import java.util.Properties;
 
 class PropertiesEx4{
 	public static void main(String[] args) {

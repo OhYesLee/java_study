@@ -1,10 +1,10 @@
-package test02.ch14;
+package ch01.test02.ch14;
 
 import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+import java.util.stream.Stream;
+
+import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.*;
-import static java.util.Comparator.*;
 
 class Student {
 	String name;

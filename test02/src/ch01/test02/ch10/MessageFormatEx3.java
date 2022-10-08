@@ -1,6 +1,6 @@
-package test02.ch10;
+package ch01.test02.ch10;
 
-import java.text.*;
+import java.text.MessageFormat;
 
 class MessageFormatEx3 {
 	public static void main(String[] args) throws Exception {

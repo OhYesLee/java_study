@@ -1,4 +1,4 @@
-package test02.ch12;
+package ch01.test02.ch12;
 
 abstract class MyEnum<T extends MyEnum<T>> implements Comparable<T> {
 	static int id = 0;

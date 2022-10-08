@@ -1,7 +1,7 @@
-package ch14;
+package ch01.ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.Optional;
+import java.util.OptionalInt;
 
 class OptionalEx1 {
 	public static void main(String[] args) {

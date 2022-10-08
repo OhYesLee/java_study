@@ -1,6 +1,7 @@
-package ch15;
+package ch01.ch15;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 
 class FileEx1 {
 	public static void main(String[] args) throws IOException

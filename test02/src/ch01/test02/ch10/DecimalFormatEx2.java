@@ -1,6 +1,6 @@
-package test02.ch10;
+package ch01.test02.ch10;
 
-import java.text.*;
+import java.text.DecimalFormat;
 
 class DecimalFormatEx2 {
 	public static void main(String[] args) {

@@ -1,6 +1,8 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 
 class StandardIOEx3 {
 	public static void main(String[] args) {

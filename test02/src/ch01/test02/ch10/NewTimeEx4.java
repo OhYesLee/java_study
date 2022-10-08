@@ -1,7 +1,10 @@
-package test02.ch10;
+package ch01.test02.ch10;
 
-import java.time.*;
-import java.time.temporal.*;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 class NewTimeEx4 {
 	public static void main(String[] args) {

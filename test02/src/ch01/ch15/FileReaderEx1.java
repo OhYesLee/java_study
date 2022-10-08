@@ -1,6 +1,8 @@
-package ch15;
+package ch01.ch15;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
 
 class FileReaderEx1 {
 	public static void main(String args[]) {

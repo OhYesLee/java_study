@@ -1,7 +1,11 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
-import java.util.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.SequenceInputStream;
+import java.util.Arrays;
+import java.util.Vector;
 
 class SequenceInputStreamEx {
 	public static void main(String[] args) {

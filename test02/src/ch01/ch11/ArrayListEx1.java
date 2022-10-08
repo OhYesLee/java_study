@@ -1,6 +1,7 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 class ArrayListEx1{
 	public static void main(String[] args) {

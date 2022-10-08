@@ -1,4 +1,4 @@
-package ch13;
+package ch01.ch13;
 
 class ThreadEx9 {
 	public static void main(String args[]) throws Exception {

@@ -1,6 +1,8 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 class BufferedOutputStreamEx1 {
 	public static void main(String args[]) {

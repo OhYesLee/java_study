@@ -1,6 +1,8 @@
-package ch15;
+package ch01.ch15;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 class DataInputStreamEx1 {
 	public static void main(String args[]) {

@@ -1,6 +1,8 @@
-package ch12;
+package ch01.ch12;
 
-import java.lang.annotation.*;
+import java.lang.annotation.Annotation;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 
 @Deprecated
 @SuppressWarnings("1111") // ��ȿ���� ���� �ֳ����̼��� ���õȴ�.

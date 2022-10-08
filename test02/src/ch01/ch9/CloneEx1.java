@@ -1,4 +1,4 @@
-package ch9;
+package ch01.ch9;
 
 class Point implements Cloneable {
 	int x;

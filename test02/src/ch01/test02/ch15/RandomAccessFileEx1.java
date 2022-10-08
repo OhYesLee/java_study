@@ -1,6 +1,7 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 
 class RandomAccessFileEx1 {
 	public static void main(String[] args) {

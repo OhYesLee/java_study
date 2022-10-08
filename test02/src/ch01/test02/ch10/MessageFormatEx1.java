@@ -1,7 +1,6 @@
-package test02.ch10;
+package ch01.test02.ch10;
 
-import java.util.*;
-import java.text.*;
+import java.text.MessageFormat;
 
 class MessageFormatEx1 {
 	public static void main(String[] args) {

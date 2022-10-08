@@ -1,6 +1,7 @@
-package ch13;
+package ch01.ch13;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.Map;
 
 class ThreadEx11 {
 	public static void main(String args[]) throws Exception {

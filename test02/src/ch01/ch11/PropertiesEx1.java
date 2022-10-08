@@ -1,6 +1,7 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Properties;
 
 class PropertiesEx1 {
 	public static void main(String[] args) {

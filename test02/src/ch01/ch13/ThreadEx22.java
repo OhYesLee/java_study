@@ -1,4 +1,4 @@
-package ch13;
+package ch01.ch13;
 
 class ThreadEx22 {
 	public static void main(String args[]) {

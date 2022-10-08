@@ -1,4 +1,4 @@
-package ch12;
+package ch01.ch12;
 
 enum Transportation {
 	BUS(100)      { int fare(int distance) { return distance*BASIC_FARE;}},

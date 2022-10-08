@@ -1,7 +1,11 @@
-package test02.ch14;
+package ch01.test02.ch14;
 
-import java.util.function.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 class LambdaEx5 {
 	public static void main(String[] args) {

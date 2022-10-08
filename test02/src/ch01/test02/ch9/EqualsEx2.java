@@ -1,4 +1,4 @@
-package test02.ch9;
+package ch01.test02.ch9;
 
 class Person {
 	long id;

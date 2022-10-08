@@ -1,4 +1,4 @@
-package ch8;
+package ch01.ch8;
 
 class FinallyTest {
 	public static void main(String args[]) {

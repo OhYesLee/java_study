@@ -1,6 +1,10 @@
-package ch15;
+package ch01.ch15;
 
-import java.io.*;
+import ch15.UserInfo;
+
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 public class SerialEx2 {

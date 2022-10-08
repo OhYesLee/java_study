@@ -1,4 +1,4 @@
-package test02.ch12;
+package ch01.test02.ch12;
 
 import java.util.ArrayList;
 

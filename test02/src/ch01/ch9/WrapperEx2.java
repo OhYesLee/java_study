@@ -1,4 +1,4 @@
-package ch9;
+package ch01.ch9;
 
 class WrapperEx2 {
 	public static void main(String[] args) {

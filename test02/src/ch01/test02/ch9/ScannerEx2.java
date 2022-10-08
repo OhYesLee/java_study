@@ -1,7 +1,7 @@
-package test02.ch9;
+package ch01.test02.ch9;
 
-import java.util.Scanner;
 import java.io.File;
+import java.util.Scanner;
 
 class ScannerEx2 {
 	public static void main(String[] args) throws Exception {

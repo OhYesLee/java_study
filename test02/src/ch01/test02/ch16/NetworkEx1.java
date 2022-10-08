@@ -1,7 +1,8 @@
-package test02.ch16;
+package ch01.test02.ch16;
 
-import java.net.*;
-import java.util.*;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.Arrays;
 
 class NetworkEx1 {
 	public static void main(String[] args) 

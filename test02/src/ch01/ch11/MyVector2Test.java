@@ -1,10 +1,12 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import ch11.MyVector2;
+
+import java.util.Iterator;
 
 class MyVector2Test {
 	public static void main(String args[]) {
-		MyVector2 v = new MyVector2();
+		ch11.MyVector2 v = new MyVector2();
 		v.add("0");
 		v.add("1");
 		v.add("2");

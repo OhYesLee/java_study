@@ -1,6 +1,6 @@
-package ch8;
+package ch01.ch8;
 
-import java.io.*;
+import java.io.File;
 
 class ExceptionEx16 {
 	public static void main(String[] args) 

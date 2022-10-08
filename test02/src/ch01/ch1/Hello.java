@@ -1,4 +1,4 @@
-package ch1;
+package ch01.ch1;
 
 class Hello {
       public static void main(String[] args) { 

@@ -1,7 +1,7 @@
-package ch14;
+package ch01.ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.Comparator;
+import java.util.stream.Stream;
 
 class StreamEx1 {
 	public static void main(String[] args) {

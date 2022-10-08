@@ -1,4 +1,4 @@
-package test02.ch7;
+package ch01.test02.ch7;
 
 class InnerEx6 {
 	Object iv = new Object(){ void method(){} };		// �͸�Ŭ����

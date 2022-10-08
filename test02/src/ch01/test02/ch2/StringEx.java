@@ -1,4 +1,4 @@
-package test02.ch2;
+package ch01.test02.ch2;
 
 class StringEx {
 	public static void main(String[] args) {

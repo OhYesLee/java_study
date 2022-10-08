@@ -1,6 +1,9 @@
-package test02.ch11;
+package ch01.test02.ch11;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 class HashMapEx3 {
 	static HashMap phoneBook = new HashMap();

@@ -1,4 +1,4 @@
-package ch7;
+package ch01.ch7;
 
 class Product {
 	int price;			// ��ǰ�� ����

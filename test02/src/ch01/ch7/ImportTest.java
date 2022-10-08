@@ -1,4 +1,4 @@
-package ch7;
+package ch01.ch7;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package test02.ch8;
+package ch01.test02.ch8;
 
 class ChainedExceptionEx {
 	public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package test02.ch10;
+package ch01.test02.ch10;
 
 class CalendarEx8 {
       public static void main(String[] args){ 

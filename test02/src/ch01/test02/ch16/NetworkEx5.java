@@ -1,7 +1,8 @@
-package test02.ch16;
+package ch01.test02.ch16;
 
-import java.net.*;
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.URL;
 
 public class NetworkEx5 {
 	public static void  main(String args[]) {

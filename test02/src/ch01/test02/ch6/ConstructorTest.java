@@ -1,4 +1,4 @@
-package test02.ch6;
+package ch01.test02.ch6;
 
 class Data1 {
 	int value;

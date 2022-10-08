@@ -1,4 +1,4 @@
-package test02.ch12;
+package ch01.test02.ch12;
 
 class NewClass{
 	int newField;

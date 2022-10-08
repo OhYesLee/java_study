@@ -1,7 +1,8 @@
-package ch11;
+package ch01.ch11;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 class PropertiesEx2 {
 	public static void main(String[] args) {

@@ -1,6 +1,11 @@
-package test02.ch15;
+package ch01.test02.ch15;
 
-import java.io.*;
+import test02.ch15.UserInfo;
+
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class SerialEx1 {

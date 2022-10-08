@@ -1,6 +1,6 @@
-package test02.ch11;
+package ch01.test02.ch11;
 
-import java.util.*;
+import java.util.Stack;
 
 public class StackEx1 {
 	public static Stack back    = new Stack();

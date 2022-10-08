@@ -1,4 +1,4 @@
-package ch6;
+package ch01.ch6;
 
 class Product {
 	static int count = 0;   // ������ �ν��Ͻ��� ���� �����ϱ� ���� ����

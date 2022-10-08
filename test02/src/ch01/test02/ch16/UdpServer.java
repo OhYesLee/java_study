@@ -1,9 +1,11 @@
-package test02.ch16;
+package ch01.test02.ch16;
 
-import java.net.*;
-import java.io.*;
-import java.util.Date;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class UdpServer {
 	public void start() throws IOException {

@@ -1,6 +1,6 @@
-package ch7;
+package ch01.ch7;
 
-import java.util.*;			// VectorŬ������ ����ϱ� ���ؼ� �߰��� �־���.
+import java.util.Vector;
 
 class Product {
 	int price;			// ��ǰ�� ����

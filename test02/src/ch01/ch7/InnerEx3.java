@@ -1,4 +1,4 @@
-package ch7;
+package ch01.ch7;
 
 class InnerEx3 {
 	private int outerIv = 0;

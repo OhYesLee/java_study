@@ -1,7 +1,6 @@
-package ch10;
+package ch01.ch10;
 
-import java.util.*;
-import java.text.*;
+import java.text.ChoiceFormat;
 
 class ChoiceFormatEx2 {
 	public static void main(String[] args) {

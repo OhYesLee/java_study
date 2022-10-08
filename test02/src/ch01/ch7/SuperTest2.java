@@ -1,4 +1,4 @@
-package ch7;
+package ch01.ch7;
 
 class SuperTest2 {
 	public static void main(String args[]) {

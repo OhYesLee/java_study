@@ -1,7 +1,9 @@
-package ch14;
+package ch01.ch14;
 
 import java.util.*;
-import java.util.stream.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.*;
 
 class StreamEx6 {

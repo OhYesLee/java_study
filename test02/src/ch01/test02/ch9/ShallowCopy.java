@@ -1,6 +1,4 @@
-package test02.ch9;
-
-import java.util.*;
+package ch01.test02.ch9;
 
 class Circle implements Cloneable {
 	Point p;  // ����

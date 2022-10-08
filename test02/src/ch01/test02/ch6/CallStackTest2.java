@@ -1,4 +1,4 @@
-package test02.ch6;
+package ch01.test02.ch6;
 
 class CallStackTest2 {
 	public static void main(String[] args) {

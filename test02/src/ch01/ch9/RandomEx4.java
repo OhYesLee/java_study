@@ -1,6 +1,4 @@
-package ch9;
-
-import java.util.*;
+package ch01.ch9;
 
 class RandomEx4 {
 	final static int RECORD_NUM = 10;	// ������ ���ڵ��� ���� ���Ѵ�.

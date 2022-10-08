@@ -1,6 +1,8 @@
-package ch11;
+package ch01.ch11;
 
-import java.util.*;
+import ch11.MyVector;
+
+import java.util.Iterator;
 
 public class MyVector2 extends MyVector implements Iterator {
 	int cursor  = 0;

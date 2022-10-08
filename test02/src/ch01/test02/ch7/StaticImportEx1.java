@@ -1,7 +1,8 @@
-package test02.ch7;
+package ch01.test02.ch7;
 
+import static java.lang.Math.PI;
+import static java.lang.Math.random;
 import static java.lang.System.out;
-import static java.lang.Math.*;
 
 class StaticImportEx1 {
 	public static void main(String[] args) {	

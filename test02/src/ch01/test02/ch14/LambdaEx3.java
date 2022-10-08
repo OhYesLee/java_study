@@ -1,4 +1,4 @@
-package test02.ch14;
+package ch01.test02.ch14;
 
 @FunctionalInterface
 interface MyFunction {

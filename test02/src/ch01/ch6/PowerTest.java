@@ -1,4 +1,4 @@
-package ch6;
+package ch01.ch6;
 
 class PowerTest {
 	public static void main(String[] args) { 

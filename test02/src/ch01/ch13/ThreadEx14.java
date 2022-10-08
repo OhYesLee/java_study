@@ -1,6 +1,6 @@
-package ch13;
+package ch01.ch13;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 class ThreadEx14_1 {
 	public static void main(String[] args) throws Exception 	{

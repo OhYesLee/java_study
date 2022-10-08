@@ -1,7 +1,7 @@
-package ch16;
+package ch01.ch16;
 
-import java.net.*;
-import java.io.*;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class NetworkEx3 {
 	public static void  main(String args[]) {

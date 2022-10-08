@@ -1,7 +1,8 @@
-package ch16;
+package ch01.ch16;
 
-import java.net.*;
-import java.io.*;
+import java.io.IOException;
+import java.net.ConnectException;
+import java.net.Socket;
 
 public class TcpIpClient5 {
 	public static void main(String args[]) {
@@ -12,8 +13,8 @@ public class TcpIpClient5 {
 			Socket socket = new Socket(serverIp, 7777); 
 
 			System.out.println("������ ����Ǿ����ϴ�.");
-			Sender sender = new Sender(socket);
-			Receiver receiver = new Receiver(socket);
+			ch16.Sender sender = new ch16.Sender(socket);
+			ch16.Receiver receiver = new ch16.Receiver(socket);
 
 			sender.start();
 			receiver.start();

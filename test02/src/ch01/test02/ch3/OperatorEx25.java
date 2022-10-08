@@ -1,6 +1,6 @@
-package test02.ch3;
+package ch01.test02.ch3;
 
-import java.util.*;  // ScannerŬ������ ����ϱ� ���� �߰�
+import java.util.Scanner;
 
 class OperatorEx25 {
 	public static void main(String args[]) { 

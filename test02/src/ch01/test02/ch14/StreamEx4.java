@@ -1,7 +1,7 @@
-package test02.ch14;
+package ch01.test02.ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.Arrays;
+import java.util.stream.Stream;
 
 class StreamEx4 {
 	public static void main(String[] args) {

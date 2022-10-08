@@ -1,8 +1,8 @@
-package test02.ch13;
+package ch01.test02.ch13;
 
 import java.util.ArrayList;
-import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Customer implements Runnable {
 	private Table table;

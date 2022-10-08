@@ -1,6 +1,6 @@
-package ch9;
+package ch01.ch9;
 
-import java.util.*;
+import java.util.Scanner;
 
 class ScannerEx1 { 
 	public static void main(String[] args) { 

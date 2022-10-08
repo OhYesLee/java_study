@@ -1,4 +1,4 @@
-package ch15;
+package ch01.ch15;
 
 class StandardIOEx2 {
 	public static void main(String[] args) {
