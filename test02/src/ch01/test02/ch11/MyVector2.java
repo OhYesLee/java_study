@@ -2,7 +2,7 @@ package ch01.test02.ch11;
 
 import test02.ch11.MyVector;
 
-import java.util.*;
+import java.util.Iterator;
 
 public class MyVector2 extends MyVector implements Iterator {
 	int cursor  = 0;

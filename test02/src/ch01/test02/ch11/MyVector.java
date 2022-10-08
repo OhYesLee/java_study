@@ -1,6 +1,7 @@
 package ch01.test02.ch11;
 
 import java.util.*;
+import java.util.function.UnaryOperator;
 
 public class MyVector implements List {
 	Object[] data = null;	// ��ü�� ��� ���� ��ü�迭�� �����Ѵ�.

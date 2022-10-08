@@ -1,7 +1,10 @@
 package ch01.test02.ch16;
 
-import java.net.*;
-import java.io.*;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 public class UdpClient {
 	public void start() throws IOException, UnknownHostException {

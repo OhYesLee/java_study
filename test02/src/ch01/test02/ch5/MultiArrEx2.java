@@ -1,6 +1,6 @@
 package ch01.test02.ch5;
 
-import java.util.*;
+import java.util.Scanner;
 
 class MultiArrEx2 {
 	public static void main(String[] args) {

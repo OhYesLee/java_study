@@ -1,6 +1,6 @@
 package ch01.test02.ch4;
 
-import java.util.*; // ScannerŬ������ ����ϱ� ���� �߰�
+import java.util.Scanner;
 
 class FlowEx3 {
 	public static void main(String[] args) {  

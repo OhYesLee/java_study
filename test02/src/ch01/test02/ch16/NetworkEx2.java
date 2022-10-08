@@ -1,6 +1,6 @@
 package ch01.test02.ch16;
 
-import java.net.*;
+import java.net.URL;
 
 class NetworkEx2 {
 	public static void main(String args[]) throws Exception {

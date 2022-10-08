@@ -2,7 +2,9 @@ package ch01.test02.ch15;
 
 import test02.ch15.UserInfo;
 
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 public class SerialEx2 {

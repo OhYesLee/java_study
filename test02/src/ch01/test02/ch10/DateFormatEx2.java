@@ -1,7 +1,8 @@
 package ch01.test02.ch10;
 
-import java.util.*;
-import java.text.*;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 class DateFormatEx2 {
 	public static void main(String[] args) {

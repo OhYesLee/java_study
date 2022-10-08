@@ -1,6 +1,7 @@
 package ch01.test02.ch11;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Iterator;
 
 class HashSetEx5 {
 	public static void main(String args[]) {

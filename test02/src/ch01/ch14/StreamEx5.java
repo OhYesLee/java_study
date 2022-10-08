@@ -1,7 +1,9 @@
 package ch01.ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.Optional;
+import java.util.OptionalInt;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 class StreamEx5 {
 	public static void main(String[] args) {

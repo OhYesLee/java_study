@@ -1,6 +1,6 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.Arrays;
 
 class ArraysEx {
 	public static void main(String[] args) {

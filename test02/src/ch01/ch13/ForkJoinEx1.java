@@ -1,6 +1,7 @@
 package ch01.ch13;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveTask;
 
 class ForkJoinEx1 {
 	static final ForkJoinPool pool = new ForkJoinPool();  // ������Ǯ�� ����

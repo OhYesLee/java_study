@@ -1,6 +1,6 @@
 package ch01.test02.ch8;
 
-import java.io.*;
+import java.io.File;
 
 class ExceptionEx15 {
 	public static void main(String[] args) {

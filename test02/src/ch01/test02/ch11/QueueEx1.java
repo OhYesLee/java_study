@@ -1,6 +1,9 @@
 package ch01.test02.ch11;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Queue;
+import java.util.Scanner;
 
 class QueueEx1 {
 	static Queue q = new LinkedList();

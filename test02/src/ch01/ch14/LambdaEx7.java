@@ -1,6 +1,7 @@
 package ch01.ch14;
 
-import java.util.function.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 class LambdaEx7 {
 	public static void main(String[] args) {

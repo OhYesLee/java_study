@@ -1,6 +1,8 @@
 package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 class FileConversion {
 	public static void main(String args[]) {

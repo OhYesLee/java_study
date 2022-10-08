@@ -1,6 +1,8 @@
 package ch01.test02.ch14;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 class LambdaEx4 {
 	public static void main(String[] args) 	{

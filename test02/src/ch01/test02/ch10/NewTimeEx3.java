@@ -1,8 +1,11 @@
 package ch01.test02.ch10;
 
-import java.time.*;
-import java.time.temporal.*;
-import static java.time.DayOfWeek.*;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.Temporal;
+import java.time.temporal.TemporalAdjuster;
+
+import static java.time.DayOfWeek.TUESDAY;
 import static java.time.temporal.TemporalAdjusters.*;
 
 class DayAfterTomorrow implements TemporalAdjuster {

@@ -1,6 +1,6 @@
 package ch01.ch2;
 
-import java.util.*;    // Scanner�� ����ϱ� ���� �߰�
+import java.util.Scanner;
 
 class ScannerEx { 
 	public static void main(String[] args) { 

@@ -1,6 +1,6 @@
 package ch01.ch10;
 
-import java.text.*;
+import java.text.MessageFormat;
 
 class MessageFormatEx1 {
 	public static void main(String[] args) {

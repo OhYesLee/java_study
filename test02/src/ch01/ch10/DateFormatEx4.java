@@ -1,7 +1,10 @@
 package ch01.ch10;
 
-import java.util.*;
-import java.text.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
 
 class DateFormatEx4 {
 	public static void main(String[] args) {

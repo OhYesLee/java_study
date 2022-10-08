@@ -1,6 +1,6 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.HashSet;
 
 class HashSetEx4 {
 	public static void main(String[] args) {

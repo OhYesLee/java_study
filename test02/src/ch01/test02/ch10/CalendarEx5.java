@@ -1,6 +1,6 @@
 package ch01.test02.ch10;
 
-import java.util.*;
+import java.util.Calendar;
 
 class  CalendarEx5 {
 	public static void main(String[] args) {

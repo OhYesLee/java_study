@@ -1,6 +1,6 @@
 package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.File;
 
 class FileEx8 {
 	static int deletedFiles = 0;

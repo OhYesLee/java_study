@@ -1,6 +1,7 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 class IteratorEx1 {
 	public static void main(String[] args) {

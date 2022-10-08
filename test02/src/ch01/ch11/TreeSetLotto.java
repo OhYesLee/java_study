@@ -1,6 +1,7 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.Set;
+import java.util.TreeSet;
 
 class TreeSetLotto {
 	public static void main(String[] args) {

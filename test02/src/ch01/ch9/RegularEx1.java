@@ -1,6 +1,7 @@
 package ch01.ch9;
 
-import java.util.regex.*;	// Pattern�� Matcher�� ���� ��Ű��
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 class RegularEx1 {
 	public static void main(String[] args) 

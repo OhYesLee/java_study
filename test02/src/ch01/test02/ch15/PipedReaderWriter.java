@@ -1,6 +1,9 @@
 package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.PipedReader;
+import java.io.PipedWriter;
+import java.io.StringWriter;
 
 public class PipedReaderWriter {
 	public static void main(String args[]) {

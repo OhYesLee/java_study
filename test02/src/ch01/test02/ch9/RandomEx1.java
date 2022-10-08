@@ -1,6 +1,6 @@
 package ch01.test02.ch9;
 
-import java.util.*;
+import java.util.Random;
 
 class RandomEx1 {
 	public static void main(String args[]) {

@@ -1,7 +1,7 @@
 package ch01.test02.ch10;
 
-import java.time.*;
-import java.time.format.*;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 class DateFormatterEx1 {
 	public static void main(String[] args) {

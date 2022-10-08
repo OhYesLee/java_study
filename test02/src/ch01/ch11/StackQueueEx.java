@@ -1,6 +1,8 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 class StackQueueEx {
 	public static void main(String[] args) {

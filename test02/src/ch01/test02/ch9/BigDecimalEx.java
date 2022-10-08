@@ -1,8 +1,9 @@
 package ch01.test02.ch9;
 
-import java.math.*;
+import java.math.BigDecimal;
+import java.math.MathContext;
 
-import static java.math.RoundingMode.*;
+import static java.math.RoundingMode.HALF_UP;
 
 class BigDecimalEx {
 	public static void main(String[] args) throws Exception {

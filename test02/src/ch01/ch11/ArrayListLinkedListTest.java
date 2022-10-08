@@ -1,6 +1,8 @@
 package ch01.ch11;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class ArrayListLinkedListTest { 
       public static void main(String args[]) { 

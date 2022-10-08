@@ -1,6 +1,8 @@
 package ch01.test02.ch15;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.StringReader;
+import java.io.StringWriter;
 
 class StringReaderWriterEx {
 	public static void main(String[] args) {

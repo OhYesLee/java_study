@@ -1,7 +1,8 @@
 package ch01.ch11;
 
-import java.util.*;
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 class PropertiesEx3 {
 	public static void main(String[] args) {

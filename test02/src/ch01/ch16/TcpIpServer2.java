@@ -1,9 +1,12 @@
 package ch01.ch16;
 
-import java.net.*;
-import java.io.*;
-import java.util.Date;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class TcpIpServer2 {
 	public static void main(String args[]) {
