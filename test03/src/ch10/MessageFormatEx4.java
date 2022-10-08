@@ -1,8 +1,8 @@
 package ch10;
 
-import java.util.*;
-import java.text.*;
-import java.io.*;
+import java.io.File;
+import java.text.MessageFormat;
+import java.util.Scanner;
 
 class MessageFormatEx4 {
 	public static void main(String[] args) throws Exception {

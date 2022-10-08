@@ -1,6 +1,6 @@
 package test02.ch5;
 
-import java.util.*;  // Arrays.toString()�� ����ϱ� ���� �߰�
+import java.util.Arrays;
 
 class ArrayEx9 {
 	public static void main(String[] args) {

@@ -1,9 +1,12 @@
 package ch14;
 
-import java.util.*;
-import java.util.stream.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Stream;
+
+import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.*;
-import static java.util.Comparator.*;
 
 class Student {
 	String name;

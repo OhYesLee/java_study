@@ -1,7 +1,8 @@
 package ch16;
 
-import java.net.*;
-import java.io.*;
+import java.io.IOException;
+import java.net.ConnectException;
+import java.net.Socket;
 
 public class TcpIpClient5 {
 	public static void main(String args[]) {

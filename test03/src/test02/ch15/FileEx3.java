@@ -1,6 +1,6 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.File;
 import java.util.ArrayList;
 
 class FileEx3 {

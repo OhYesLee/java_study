@@ -1,6 +1,9 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 class DataInputStreamEx2 {
 	public static void main(String args[]) {

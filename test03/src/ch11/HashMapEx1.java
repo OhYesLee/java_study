@@ -1,6 +1,7 @@
 package ch11;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 class HashMapEx1 {
 	public static void main(String[] args) {

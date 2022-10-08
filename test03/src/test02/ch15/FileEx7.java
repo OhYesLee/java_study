@@ -1,6 +1,7 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.File;
+import java.io.FilenameFilter;
 
 class FileEx7 {
 	public static void main(String[] args) throws Exception {

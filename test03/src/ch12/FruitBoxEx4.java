@@ -1,6 +1,8 @@
 package ch12;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 class Fruit	{
 	String name;

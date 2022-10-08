@@ -1,6 +1,6 @@
 package ch15;
 
-import java.io.*;
+import java.io.File;
 
 class FileEx2 {
 	public static void main(String[] args) {

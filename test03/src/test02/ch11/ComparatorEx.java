@@ -1,6 +1,7 @@
 package test02.ch11;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
 
 class ComparatorEx {
 	public static void main(String[] args) {

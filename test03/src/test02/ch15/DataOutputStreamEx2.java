@@ -1,6 +1,8 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 
 class DataOutputStreamEx2 {

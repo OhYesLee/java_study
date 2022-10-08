@@ -1,6 +1,6 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.File;
 
 class FileEx9 { 
 	public static void main(String[] args) { 

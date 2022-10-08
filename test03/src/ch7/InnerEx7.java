@@ -1,7 +1,8 @@
 package ch7;
 
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 class  InnerEx7{
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package ch9;
 
 import static java.lang.Math.*;
-import static java.lang.System.*;
+import static java.lang.System.out;
 
 class MathEx1 {
 	public static void main(String args[]) {

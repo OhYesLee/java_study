@@ -1,6 +1,6 @@
 package ch10;
 
-import java.text.*;
+import java.text.ChoiceFormat;
 
 class n {
 	public static void main(String[] args) {

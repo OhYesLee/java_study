@@ -1,6 +1,7 @@
 package ch15;
 
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.util.Arrays;
 
 class IOEx2 {

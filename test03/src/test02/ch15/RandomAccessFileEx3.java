@@ -1,6 +1,8 @@
 package test02.ch15;
 
-import java.io.*;
+import java.io.EOFException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 
 class RandomAccessFileEx3 {
 	public static void main(String args[]) {

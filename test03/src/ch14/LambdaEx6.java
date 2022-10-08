@@ -1,7 +1,10 @@
 package ch14;
 
-import java.util.function.*;
-import java.util.*;
+import java.util.Arrays;
+import java.util.function.IntConsumer;
+import java.util.function.IntPredicate;
+import java.util.function.IntSupplier;
+import java.util.function.IntUnaryOperator;
 
 class LambdaEx6 {
 	public static void main(String[] args) {

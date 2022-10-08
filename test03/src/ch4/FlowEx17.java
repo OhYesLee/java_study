@@ -1,6 +1,6 @@
 package ch4;
 
-import java.util.*;
+import java.util.Scanner;
 
 class FlowEx17 {
 	public static void main(String[] args) { 
